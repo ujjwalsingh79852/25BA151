@@ -1,0 +1,37 @@
+body{
+    margin:0px;
+    paddin:0;
+    background-color: rgb(149, 91, 91); 
+    background-repeat: no-repeat;
+    background-position: top center;
+    html,*{
+        margin:0;
+        padding:0;
+        box-sizing: border-box;
+    }
+    p{
+        font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+        font-size: large;
+        font-weight:300 ;
+        font-style: italic;
+        color: rgb(8, 34, 109);
+        text-align: right;
+        text-decoration: underline;
+        text-transform: capitalize;
+        text-shadow:1px 0px 1px #f04 ;
+
+    }
+    span{
+        color: blue;size:30px;
+    }
+    #para{
+        color:cadetblue;
+        display: inline;
+    }
+    ul{
+        list list-style: none;
+    }
+    ul li{
+        float:left;margin:30px;
+    }
+}

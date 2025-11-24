@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>css boxmodel</title>
+    <style>
+        body{
+            margin: 200px;
+            box-sizing: border-box;
+        }
+        #main{
+            width: 700px;
+            height: 400px;
+            background-color: rgb(255, 255, 255);
+            padding: 22px;
+            border: 2px solid black;
+            display:flex;
+            
+            margin-right: 26px;
+           
+        }
+        .box{
+            width: 200px;
+            height: 150px;
+            background-color: coral;
+            padding: 15px;
+            border: 5px solid rgb(11, 11, 105);
+        }
+        .box:nth-child(2){
+            margin-left: 10px;
+            height: 380px;
+            width: 20px;
+        }
+        .box:nth-child(odd){
+            margin-left : 20px;
+        }
+        .box:nth-child(3){
+            margin-right : 20px;
+            height:220px ;
+            width: 200000px;
+        }
+    </style>
+</head>
+<body>
+    <div id="main">
+        <div class="box"></div>
+         <div class="box"></div>
+         <div class="box"></div>
+         <div class="box"></div>
+            
+    </div>
+</body>
+</html>
