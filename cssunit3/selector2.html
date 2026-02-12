@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CSS SELECTOR</title>
+    <style>
+        div h1{
+            color: blue;
+            text-align: center;
+        }
+        div p{
+            color: green;
+            font-size: 20px;
+            text-align: justify;
+        }
+        .text p{
+            background-color: yellow;
+        }
+        a:hover{
+            background-color: orange;
+        }
+        div p::first-line{
+            font-size:30px ;
+        }
+        ul{
+            list-style::name;
+            display:flex;
+            gap:20px;
+        }
+        ul li{
+            background-color: lightgrey;
+            padding:15px;
+        }
+
+
+    </style>
+</head>
+<body>
+    <div class="text">
+        <h1>hello Abes</h1>
+        <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit.
+             Numquam quidem corrupti magnam minima quos, nam, odio fuga expedita et
+              repudiandae rerum error vitae? 
+            Adipisci doloribus dignissimos optio commodi ratione itaque.</p>
+
+    </div>
+    <a href="#">this is a link</a>
+    <p>
+       Lorem ipsum dolor, sit amet consectetur adipisicing elit. Quos, amet. 
+       Delectus minima sequi, esse sunt distinctio dolore eum. 
+       Eos fuga atque accusamus labore corrupti quo magni iusto? Eos, perferendis sit!
+    </p>
+    <p>
+        <h2>Third para</h2>
+        why is this not working? 
+    </p>
+    <ul>
+        <li>khopdi</li>
+        <li>matha</li>
+        <li>lathi</li>
+    </ul>
+</body>
+</html>
